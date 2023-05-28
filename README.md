@@ -79,6 +79,54 @@ variables are not defined:
 }
 ```
 
+## Usage (SCSS)
+
+SCSS files are located in the `scss` directory:
+
+* `all-normal.scss`
+* `400-normal.scss`
+* `500-normal.scss`
+* `600-normal.scss`
+* `700-normal.scss`
+* `900-normal.scss`
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+### Importing
+
+```scss
+@import "~@wikiline/webfont-golos-text/scss/all-normal";
+```
+
+To import specific fonts, you can use:
+
+```scss
+@import "~@wikiline/webfont-golos-text/scss/400-normal";
+@import "~@wikiline/webfont-golos-text/scss/500-normal";
+@import "~@wikiline/webfont-golos-text/scss/600-normal";
+@import "~@wikiline/webfont-golos-text/scss/700-normal";
+@import "~@wikiline/webfont-golos-text/scss/900-normal";
+```
+
+```scss
+body {
+    font-family: 'Golos Text', sans-serif;
+}
+```
+
+### Variables
+
+Each font uses the following SCSS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+* `$font-display` global value applicable to all fonts
+* `$font-display-golos-text` the value applicable to a specific font
+
+```scss
+$font-display: swap;
+$font-display-golos-text: swap;
+```
+
 ## Licensing
 
 It is important to always read the license for every font that you use. Most of the fonts in the collection use the SIL
