@@ -1,0 +1,50 @@
+{
+  "name": "@wikiline/webfont-golos-text",
+  "version": "1.0.0",
+  "description": "Package for integrating WebFont Golos Text",
+  "main": "all-normal.min.css",
+  "files": [
+    "all-normal.css",
+    "all-normal.min.css",
+    "400-normal.css",
+    "400-normal.min.css",
+    "500-normal.css",
+    "500-normal.min.css",
+    "600-normal.css",
+    "600-normal.min.css",
+    "700-normal.css",
+    "700-normal.min.css",
+    "900-normal.css",
+    "900-normal.min.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikiline/webfont-golos-text.git"
+  },
+  "keywords": [
+    "font",
+    "font-family",
+    "web",
+    "webfont",
+    "typeface",
+    "golos text",
+    "golos-text",
+    "front-end",
+    "css"
+  ],
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wikiline/webfont-golos-text/issues"
+  },
+  "homepage": "https://github.com/wikiline/webfont-golos-text#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
