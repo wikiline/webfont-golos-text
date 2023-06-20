@@ -17,46 +17,7 @@ npm i @wikiline/webfont-golos-text
 
 ## Usage (CSS)
 
-CSS files are located in the `root` directory:
-
-* `all-normal.css`
-* `all-normal.min.css`
-* `400-normal.css`
-* `400-normal.min.css`
-* `500-normal.css`
-* `500-normal.min.css`
-* `600-normal.css`
-* `600-normal.min.css`
-* `700-normal.css`
-* `700-normal.min.css`
-* `900-normal.css`
-* `900-normal.min.css`
-
-Font files are located in the `fonts/` directory.
-
-### Importing
-
-To import all fonts, you can use:
-
-```css
-@import "~@wikiline/webfont-golos-text/all-normal.css";
-@import "~@wikiline/webfont-golos-text/all-normal.min.css";
-```
-
-To import specific fonts, you can use:
-
-```css
-@import "~@wikiline/webfont-golos-text/400-normal.css";
-@import "~@wikiline/webfont-golos-text/400-normal.min.css";
-@import "~@wikiline/webfont-golos-text/500-normal.css";
-@import "~@wikiline/webfont-golos-text/500-normal.min.css";
-@import "~@wikiline/webfont-golos-text/600-normal.css";
-@import "~@wikiline/webfont-golos-text/600-normal.min.css";
-@import "~@wikiline/webfont-golos-text/700-normal.css";
-@import "~@wikiline/webfont-golos-text/700-normal.min.css";
-@import "~@wikiline/webfont-golos-text/900-normal.css";
-@import "~@wikiline/webfont-golos-text/900-normal.min.css";
-```
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
 
 ```css
 body {
@@ -64,13 +25,34 @@ body {
 }
 ```
 
+### Importing
+
+```css
+@import "~@wikiline/webfont-golos-text/src/css/all.css";
+@import "~@wikiline/webfont-golos-text/src/css/all-normal.css";
+```
+
+To import specific fonts, you can use:
+
+```scss
+@import "~@wikiline/webfont-golos-text/src/css/weight-400.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-400-normal.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-500.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-500-normal.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-600.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-600-normal.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-700.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-700-normal.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-900.css";
+@import "~@wikiline/webfont-golos-text/src/css/weight-900-normal.css";
+```
+
+Note: Also, each file is presented in a minimized form.
+
 ### Variables
 
 Each font uses the following CSS variables to set the font display property with the default `swap` value if CSS
 variables are not defined:
-
-* `--font-display` global value applicable to all fonts
-* `--font-display-golos-text` the value applicable to a specific font
 
 ```css
 :root {
@@ -81,32 +63,7 @@ variables are not defined:
 
 ## Usage (SCSS)
 
-SCSS files are located in the `scss` directory:
-
-* `all-normal.scss`
-* `400-normal.scss`
-* `500-normal.scss`
-* `600-normal.scss`
-* `700-normal.scss`
-* `900-normal.scss`
-
 Font files are located in the `fonts/` directory. To import all fonts, you can use:
-
-### Importing
-
-```scss
-@import "~@wikiline/webfont-golos-text/scss/all-normal";
-```
-
-To import specific fonts, you can use:
-
-```scss
-@import "~@wikiline/webfont-golos-text/scss/400-normal";
-@import "~@wikiline/webfont-golos-text/scss/500-normal";
-@import "~@wikiline/webfont-golos-text/scss/600-normal";
-@import "~@wikiline/webfont-golos-text/scss/700-normal";
-@import "~@wikiline/webfont-golos-text/scss/900-normal";
-```
 
 ```scss
 body {
@@ -114,13 +71,32 @@ body {
 }
 ```
 
+### Importing
+
+```scss
+@import "~@wikiline/webfont-golos-text/src/scss/all";
+@import "~@wikiline/webfont-golos-text/src/scss/all-normal";
+```
+
+To import specific fonts, you can use:
+
+```scss
+@import "~@wikiline/webfont-golos-text/src/scss/weight-400";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-400-normal";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-500";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-500-normal";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-600";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-600-normal";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-700";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-700-normal";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-900";
+@import "~@wikiline/webfont-golos-text/src/scss/weight-900-normal";
+```
+
 ### Variables
 
 Each font uses the following SCSS variables to set the font display property with the default `swap` value if SCSS
 variables are not defined:
-
-* `$font-display` global value applicable to all fonts
-* `$font-display-golos-text` the value applicable to a specific font
 
 ```scss
 $font-display: swap;
