@@ -106,7 +106,7 @@ variables are not defined:
 or
 
 ```less
-@import "~@wikiline/webfont-golos-text/src/less/config/_variables";
+@import "~@wikiline/webfont-golos-text/less/config/_variables";
 ```
 
 ## Usage (SCSS)
