@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'Golos Text';
-    src: url('../../fonts/golos-text-700-normal.woff2') format('woff2'), url('../../fonts/golos-text-700-normal.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: var(--font-display-golos-text, var(--font-display, swap));
-}
