@@ -28,23 +28,23 @@ body {
 ### Importing
 
 ```css
-@import "~@wikiline/webfont-golos-text/src/css/all.css";
-@import "~@wikiline/webfont-golos-text/src/css/all-normal.css";
+@import "~@wikiline/webfont-golos-text/css/all.css";
+@import "~@wikiline/webfont-golos-text/css/all-normal.css";
 ```
 
 To import specific fonts, you can use:
 
 ```css
-@import "~@wikiline/webfont-golos-text/src/css/weight-400.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-400-normal.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-500.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-500-normal.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-600.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-600-normal.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-700.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-700-normal.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-900.css";
-@import "~@wikiline/webfont-golos-text/src/css/weight-900-normal.css";
+@import "~@wikiline/webfont-golos-text/css/weight-400.css";
+@import "~@wikiline/webfont-golos-text/css/weight-400-normal.css";
+@import "~@wikiline/webfont-golos-text/css/weight-500.css";
+@import "~@wikiline/webfont-golos-text/css/weight-500-normal.css";
+@import "~@wikiline/webfont-golos-text/css/weight-600.css";
+@import "~@wikiline/webfont-golos-text/css/weight-600-normal.css";
+@import "~@wikiline/webfont-golos-text/css/weight-700.css";
+@import "~@wikiline/webfont-golos-text/css/weight-700-normal.css";
+@import "~@wikiline/webfont-golos-text/css/weight-900.css";
+@import "~@wikiline/webfont-golos-text/css/weight-900-normal.css";
 ```
 
 Note: Also, each file is presented in a minimized form.
@@ -74,23 +74,23 @@ body {
 ### Importing
 
 ```less
-@import "~@wikiline/webfont-golos-text/src/less/all";
-@import "~@wikiline/webfont-golos-text/src/less/all-normal";
+@import "~@wikiline/webfont-golos-text/less/all";
+@import "~@wikiline/webfont-golos-text/less/all-normal";
 ```
 
 To import specific fonts, you can use:
 
 ```less
-@import "~@wikiline/webfont-golos-text/src/less/_weight-400";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-400-normal";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-500";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-500-normal";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-600";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-600-normal";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-700";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-700-normal";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-900";
-@import "~@wikiline/webfont-golos-text/src/less/_weight-900-normal";
+@import "~@wikiline/webfont-golos-text/less/_weight-400";
+@import "~@wikiline/webfont-golos-text/less/_weight-400-normal";
+@import "~@wikiline/webfont-golos-text/less/_weight-500";
+@import "~@wikiline/webfont-golos-text/less/_weight-500-normal";
+@import "~@wikiline/webfont-golos-text/less/_weight-600";
+@import "~@wikiline/webfont-golos-text/less/_weight-600-normal";
+@import "~@wikiline/webfont-golos-text/less/_weight-700";
+@import "~@wikiline/webfont-golos-text/less/_weight-700-normal";
+@import "~@wikiline/webfont-golos-text/less/_weight-900";
+@import "~@wikiline/webfont-golos-text/less/_weight-900-normal";
 ```
 
 ### Variables
@@ -103,7 +103,7 @@ variables are not defined:
 @font-display-golos-text: swap;
 ```
 
-You can declare these variables globally or import them from a file: `_variables.less`.
+or
 
 ```less
 @import "~@wikiline/webfont-golos-text/src/less/config/_variables";
@@ -122,23 +122,23 @@ body {
 ### Importing
 
 ```scss
-@import "~@wikiline/webfont-golos-text/src/scss/all";
-@import "~@wikiline/webfont-golos-text/src/scss/all-normal";
+@import "~@wikiline/webfont-golos-text/scss/all";
+@import "~@wikiline/webfont-golos-text/scss/all-normal";
 ```
 
 To import specific fonts, you can use:
 
 ```scss
-@import "~@wikiline/webfont-golos-text/src/scss/weight-400";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-400-normal";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-500";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-500-normal";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-600";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-600-normal";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-700";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-700-normal";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-900";
-@import "~@wikiline/webfont-golos-text/src/scss/weight-900-normal";
+@import "~@wikiline/webfont-golos-text/scss/weight-400";
+@import "~@wikiline/webfont-golos-text/scss/weight-400-normal";
+@import "~@wikiline/webfont-golos-text/scss/weight-500";
+@import "~@wikiline/webfont-golos-text/scss/weight-500-normal";
+@import "~@wikiline/webfont-golos-text/scss/weight-600";
+@import "~@wikiline/webfont-golos-text/scss/weight-600-normal";
+@import "~@wikiline/webfont-golos-text/scss/weight-700";
+@import "~@wikiline/webfont-golos-text/scss/weight-700-normal";
+@import "~@wikiline/webfont-golos-text/scss/weight-900";
+@import "~@wikiline/webfont-golos-text/scss/weight-900-normal";
 ```
 
 ### Variables
